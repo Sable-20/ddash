@@ -1,5 +1,5 @@
 {
-  "name": "ddash",
+  "name": "1PG-Demo",
   "version": "1.0.0",
   "description": "",
   "main": "bot.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "sable#5179",
+  "author": "ADAMJR#0001",
   "license": "ISC",
   "dependencies": {
     "@2pg/music": "^1.1.6",

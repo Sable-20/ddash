@@ -10,7 +10,8 @@ module.exports = class extends Command {
             .setTitle("Server Stats")
             .addFields(
                 { name: "Server Name", value: `${msg.guild.name}`, inline: true },
-                { name: "Member Count", value: `${msg.guild.memberCount}`, inline: true }
+                { name: "Member Count", value: `${msg.guild.memberCount}`, inline: true },
+                { name: "Verification Level", value: `${msg.guild.verificationLevel}`, inline: true }
             )
             .setTimestamp()
             .setFooter("Powered by your mom")
